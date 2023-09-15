@@ -1,0 +1,38 @@
+*{margin: 0px;
+padding: 0px;}
+h1{
+    text-align: center;
+    
+}
+
+.box{
+    /* width: 100%; */
+    margin-left: 25% !important;
+    /* margin-right: 25% !important; */
+}
+.canvas{
+    background-color: rgb(3, 87, 41);
+    border: solid brown 5px;
+    width:400px!important; 
+    height:400px!important;
+    margin: left 22% !important;
+    margin:right 22% !important;
+   
+    
+}
+
+.button{ 
+  background-color: rgb(234, 255, 0);
+  border:solid rgb(255, 85, 0)  ;
+  padding: 6px 15px;
+  border-radius: 8px;
+  color:rgb(0, 72, 255) ;
+  font-weight: bold;
+}
+/* @media(max-width:796px){
+    .box{
+      
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }  
+} */
