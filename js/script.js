@@ -90,5 +90,10 @@ function eatSelf(head,array){
         }
     }
     return false;
-  }
+}
+var restart = document.getElementById("restart");
+restart.addEventListener("click", () => {
+    location.reload();
+});
+
 

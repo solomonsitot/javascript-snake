@@ -2,37 +2,51 @@
 padding: 0px;}
 h1{
     text-align: center;
-    
+    font-size: 36px;
+    color: #ff6666;
+}
+.box
+    {
+        background:url("../img/backgroundjpg.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: bottom;
+        border: 5px solid #1dac3e;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    }
+
+canvas {
+    display: block; 
+    margin: 0 auto; 
+    background-color: #034507;
+    border: 2px solid #555;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+  
+
+/* Existing styles */
+
+.restartB {
+    background-color: orange; /* Red button color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.box{
-    /* width: 100%; */
-    margin-left: 25% !important;
-    /* margin-right: 25% !important; */
-}
-.canvas{
-    background-color: rgb(3, 87, 41);
-    border: solid brown 5px;
-    width:400px!important; 
-    height:400px!important;
-    margin: left 22% !important;
-    margin:right 22% !important;
-   
-    
+.restartB:hover {
+    background-color: #ff3333; /* Darker red on hover */
 }
 
-.button{ 
-  background-color: rgb(234, 255, 0);
-  border:solid rgb(255, 85, 0)  ;
-  padding: 6px 15px;
-  border-radius: 8px;
-  color:rgb(0, 72, 255) ;
-  font-weight: bold;
+/* Center the button */
+.restartB-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
-/* @media(max-width:796px){
-    .box{
-      
-        margin-left: auto !important;
-        margin-right: auto !important;
-    }  
-} */
